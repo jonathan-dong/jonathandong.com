@@ -3,7 +3,7 @@
   <head>
     <!-- Site Properties -->
     <title>Jonathan Dong</title>
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/awdeorio-favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
     <meta name="description" content="Jonathan Dong" />
     <meta name="keywords" content="jadong, Jonathan Dong" />
     <meta name="author" content="Jonathan Dong" />
@@ -16,12 +16,19 @@
     <!-- Fomantic UI CSS library -->
     <!-- https://fomantic-ui.com/introduction/getting-started.html#using-a-cdn-provider -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.js"></script>
 
     <!-- Academic Icons -->
     <!-- https://jpswalsh.github.io/academicons/ -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+    />
 
     <!-- Google Analytics -->
     <script>
@@ -43,5 +50,119 @@
       ga("send", "pageview");
     </script>
   </head>
-  <body></body>
+  <body>
+    <div class="ui text container">
+      <a
+        href="https://www.linkedin.com/in/jadong2001"
+        class="ui basic secondary right floated icon button"
+        data-tooltip="LinkedIn"
+        data-position="bottom right"
+        target="_blank"
+      >
+        <i class="ui icon linkedin"></i>
+      </a>
+
+      <a
+        href="https://github.com/jonathan-dong/"
+        class="ui basic secondary right floated icon button"
+        data-tooltip="GitHub"
+        data-position="bottom right"
+        target="_blank"
+      >
+        <i class="ui icon github"></i>
+      </a>
+
+      <a
+        href="mailto:jadong@umich.edu"
+        class="ui basic secondary right floated icon button"
+        data-tooltip="Email jadong@umich.edu"
+        data-position="bottom right"
+        target="_blank"
+      >
+        <i class="ui icon envelope"></i
+      ></a>
+
+      <header>
+        <h1>Jonathan Dong</h1>
+        <p>
+          <img
+            src="assets/images/jonathan.JPG"
+            alt="Jonathan Dong headshot"
+            class="ui left floated rounded small image"
+          />
+          Jonathan Dong is a student at the University of Michigan in Ann Arbor, Michigan studying
+          Computer Science and Engineering Physics planning on graduating in April, 2023. His
+          current areas of interests are Machine Learning, Quantum Mechanics, and Full-Stack Web
+          Development.
+        </p>
+      </header>
+      <div class="ui hidden section divider"></div>
+
+      <nav class="ui stackable menu">
+        <a href="#about" class="item">About</a>
+        <a href="#software" class="item">Software</a>
+        <a href="#contact" class="ui right item">Contact</a>
+      </nav>
+
+      <section id="about">
+        <h2>About</h2>
+      </section>
+
+      <section id="software">
+        <h2>Software</h2>
+      </section>
+    </div>
+    <footer class="ui inverted vertical footer segment">
+      <section class="ui center aligned container" id="contact">
+        <div class="ui stackable inverted divided grid">
+          <div class="four wide column"></div>
+          <div class="four wide column left aligned">
+            <div class="ui inverted link list">
+              <a href="mailto:jadong@umich.edu" class="item" target="_blank">
+                <i class="mail icon"></i>
+                jadong@umich.edu
+              </a>
+              <a href="https://github.com/jonathan-dong/" class="item" target="_blank">
+                <i class="ui icon github"></i>
+                GitHub
+              </a>
+              <a href="https://www.linkedin.com/in/jadong2001/" class="item" target="_blank">
+                <i class="ui icon linkedin"></i>
+                LinkedIn
+              </a>
+            </div>
+          </div>
+          <div class="four wide column left aligned">
+            <div class="ui inverted link list">
+              <div class="item">
+                <table>
+                  <tr>
+                    <td><i class="map marked alternate icon"></i></td>
+                    <td>504 Lawrence St, Apt 1</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Ann Arbor, MI 48104</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="item">
+                <table>
+                  <tr>
+                    <td><i class="phone icon"></i></td>
+                    <td>734-358-8762</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="four wide column"></div>
+        </div>
+        <div class="ui inverted section divider"></div>
+        <div class="ui horizontal inverted small divided link list">
+          <div class="item">Last Updated: 9/16 by Jonathan Dong</div>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>
